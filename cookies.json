@@ -1,34 +1,65 @@
 [
-  {
-    "name": "productIdV2",
-    "value": "198",
-    "domain": "www.workshopdata.com",
-    "path": "/touch/site/layout/",
-    "secure": true,
-    "sameSite": "None",
-    "expirationDate": 1749943131
-  },
-  {
-    "name": "JSESSIONID",
-    "value": "app_2_30_touch~23AA72D3CC6B966375401BBFC244684E",
-    "domain": "www.workshopdata.com",
-    "path": "/touch/",
-    "secure": true
-  },
-  {
-    "name": "rememberMeV2",
-    "value": "QW1vZG8yMkA6QEFtb2RvMjJAOkBzZWNyZXQ=",
-    "domain": "www.workshopdata.com",
-    "path": "/touch/site/layout/",
-    "secure": true,
-    "expirationDate": 99999999999
-  },
-  {
-    "name": "styleIdV2",
-    "value": "logicat",
-    "domain": "www.workshopdata.com",
-    "path": "/touch/site/layout/",
-    "secure": true,
-    "expirationDate": 99999999999
-  }
+    {
+        "domain": ".www.workshopdata.com",
+        "expirationDate": 1783284504.606434,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "rememberMeV2",
+        "path": "/touch/site/layout/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "\"QW1vZG8yMkA6QEFtb2RvMjJAOkBzZWNyZXQ=\""
+    },
+    {
+        "domain": ".www.workshopdata.com",
+        "expirationDate": 1749943131,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "productIdV2",
+        "path": "/touch/site/layout/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "198"
+    },
+    {
+        "domain": "www.workshopdata.com",
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "JSESSIONID",
+        "path": "/touch/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": true,
+        "storeId": null,
+        "value": "app_2_30_touch~7DBA7CBC4549DE8550B91A4D154BF6AB"
+    },
+    {
+        "domain": ".www.workshopdata.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "JSESSIONID",
+        "path": "/touch/",
+        "sameSite": null,
+        "secure": true,
+        "session": true,
+        "storeId": null,
+        "value": "app_2_30_touch~23AA72D3CC6B966375401BBFC244684E"
+    },
+    {
+        "domain": ".www.workshopdata.com",
+        "expirationDate": 1783284504.606625,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "styleIdV2",
+        "path": "/touch/site/layout/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "logicat"
+    }
 ]
