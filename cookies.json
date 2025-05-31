@@ -1,65 +1,19 @@
-[
-    {
-        "domain": ".www.workshopdata.com",
-        "expirationDate": 1783284504.606434,
-        "hostOnly": false,
-        "httpOnly": false,
-        "name": "rememberMeV2",
-        "path": "/touch/site/layout/",
-        "sameSite": null,
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "\"QW1vZG8yMkA6QEFtb2RvMjJAOkBzZWNyZXQ=\""
-    },
-    {
-        "domain": ".www.workshopdata.com",
-        "expirationDate": 1749943131,
-        "hostOnly": false,
-        "httpOnly": false,
-        "name": "productIdV2",
-        "path": "/touch/site/layout/",
-        "sameSite": null,
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "198"
-    },
-    {
-        "domain": "www.workshopdata.com",
-        "hostOnly": true,
-        "httpOnly": true,
-        "name": "JSESSIONID",
-        "path": "/touch/",
-        "sameSite": "no_restriction",
-        "secure": true,
-        "session": true,
-        "storeId": null,
-        "value": "app_2_30_touch~7DBA7CBC4549DE8550B91A4D154BF6AB"
-    },
-    {
-        "domain": ".www.workshopdata.com",
-        "hostOnly": false,
-        "httpOnly": false,
-        "name": "JSESSIONID",
-        "path": "/touch/",
-        "sameSite": null,
-        "secure": true,
-        "session": true,
-        "storeId": null,
-        "value": "app_2_30_touch~23AA72D3CC6B966375401BBFC244684E"
-    },
-    {
-        "domain": ".www.workshopdata.com",
-        "expirationDate": 1783284504.606625,
-        "hostOnly": false,
-        "httpOnly": false,
-        "name": "styleIdV2",
-        "path": "/touch/site/layout/",
-        "sameSite": null,
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "logicat"
-    }
-]
+{
+  "manifest_version": 3,
+  "name": "WorkshopData atlentic diag",
+  "version": "1.0",
+  "description": "crack pour www.workshopdata.com",
+  "permissions": ["cookies", "tabs", "scripting"],
+  "host_permissions": ["https://www.workshopdata.com/*","https://cdn.jsdelivr.net/*"],
+    
+  "background": {
+    "service_worker": "popup.js"
+  },
+  "action": {
+    "default_title": "atlentic diag",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
