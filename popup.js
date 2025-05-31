@@ -1,4 +1,4 @@
-//yassineddddddddddd
+//yasssssss
 document.getElementById("setCookiesBtn").addEventListener("click", () => {
   const cookies = [
     {
