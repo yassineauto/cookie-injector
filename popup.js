@@ -1,4 +1,4 @@
-// popup.js
+//yassine
 document.getElementById("setCookiesBtn").addEventListener("click", () => {
   const cookies = [
     {
