@@ -6,7 +6,7 @@ document.getElementById("setCookiesBtn").addEventListener("click", () => {
       domain: "www.workshopdata.com",
       path: "/touch/site/layout/",
       secure: true,
-      expirationDate: 1749943131
+      expirationDate: 99999999999
     },
     {
       name: "JSESSIONID",
