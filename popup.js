@@ -10,14 +10,14 @@ document.getElementById("setCookiesBtn").addEventListener("click", () => {
     },
     {
       name: "JSESSIONID",
-      value: "app_2_30_touch~462987D730EC7484027E34DB90B72A6B",
+      value: "app_2_30_touch~3AE5327295A07D72384B9B3B60000039",
       domain: "www.workshopdata.com",
       path: "/touch/",
       secure: true
     },
     {
       name: "rememberMeV2",
-      value: "\"QW1vZG8yMkA6QEFtb2RvMjJAOkBzZWNyZXQ=\"",
+      value: "QW1vZG8yMkA6QEFtb2RvMjJAOkBzZWNyZXQ=",
       domain: "www.workshopdata.com",
       path: "/touch/site/layout/",
       secure: true,
