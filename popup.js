@@ -10,7 +10,7 @@ document.getElementById("setCookiesBtn").addEventListener("click", () => {
     },
     {
       name: "JSESSIONID",
-      value: "app_2_30_touch~278372CA0BF87B45454E88892DF8A42E",
+      value: "app_2_30_touch~D50BE2C2411573068FF1E99BF9636C8A",
       domain: "www.workshopdata.com",
       path: "/touch/",
       secure: true,
@@ -26,7 +26,7 @@ document.getElementById("setCookiesBtn").addEventListener("click", () => {
     },
     {
       name: "styleIdV2",
-      value: "miwa",
+      value: "logicat",
       domain: "www.workshopdata.com",
       path: "/touch/site/layout/",
       secure: true,
