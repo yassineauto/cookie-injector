@@ -26,7 +26,7 @@ document.getElementById("setCookiesBtn").addEventListener("click", () => {
     },
     {
       name: "styleIdV2",
-      value: "logicat",
+      value: "miwa",
       domain: "www.workshopdata.com",
       path: "/touch/site/layout/",
       secure: true,
