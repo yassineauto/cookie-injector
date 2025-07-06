@@ -10,7 +10,7 @@ document.getElementById("setCookiesBtn").addEventListener("click", () => {
     },
     {
       name: "JSESSIONID",
-      value: "app_0_30_touch~B771E32872192C44480172750397C2F1",
+      value: "app_0_30_touch~A666E0C5EEBB2E6E32556C09F962B73E",
       domain: "www.workshopdata.com",
       path: "/touch/",
       secure: true,
