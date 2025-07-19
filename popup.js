@@ -17,7 +17,7 @@ document.getElementById("setCookiesBtn").addEventListener("click", () => {
     },
     {
       name: "rememberMeV2",
-      value: "\"QW1vZG8yMkA6QEFtb2RvMjJAOkBzZWNyZXQ=\"",
+      value: "SU5URVJGQ0U4OEA6QElOVEVSRkNFODhAOkBzZWNyZXQ="",
       domain: "www.workshopdata.com",
       path: "/touch/site/layout/",
       secure: true,
