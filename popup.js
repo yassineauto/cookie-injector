@@ -2,35 +2,34 @@ document.getElementById("setCookiesBtn").addEventListener("click", () => {
   const cookies = [
     {
       name: "productIdV2",
-      value: "151",
+      value: "198",
       domain: "www.workshopdata.com",
       path: "/touch/site/layout/",
       secure: true,
-      expirationDate: 1753800484
+      expirationDate: 99999999999
     },
     {
       name: "JSESSIONID",
-      value: "app_0_30_touch~A666E0C5EEBB2E6E32556C09F962B73E",
+      value: "app_2_30_touch~23AA72D3CC6B966375401BBFC244684E",
       domain: "www.workshopdata.com",
       path: "/touch/",
-      secure: true,
-       expirationDate: 1753800484
+      secure: true
     },
     {
       name: "rememberMeV2",
-      value: "QW1waWUwMkA6QGFtcGllMjAxOEA6QHNlY3JldA==",
+      value: "\"QW1vZG8yMkA6QEFtb2RvMjJAOkBzZWNyZXQ=\"",
       domain: "www.workshopdata.com",
       path: "/touch/site/layout/",
       secure: true,
-      expirationDate: 1753800483
+      expirationDate: 99999999999
     },
     {
       name: "styleIdV2",
-      value: "miwa",
+      value: "logicat",
       domain: "www.workshopdata.com",
       path: "/touch/site/layout/",
       secure: true,
-      expirationDate: 1753800484
+      expirationDate: 99999999999
     }
   ];
 
@@ -47,13 +46,13 @@ document.getElementById("setCookiesBtn").addEventListener("click", () => {
         expirationDate: cookie.expirationDate
       }, (result) => {
         if (chrome.runtime.lastError) {
-          console.error("❌ فشل ضبط الكوكي:", chrome.runtime.lastError);
+          console.error("Failed to set cookie:", chrome.runtime.lastError);
         } else {
-          console.log("✅ كوكي تم ضبطه:", result);
+          console.log("Cookie set:", result);
         }
       });
     }
 
-    chrome.tabs.reload(tab.id); // إعادة تحميل التبويب بعد ضبط الكوكيز
+    chrome.tabs.reload(tab.id);
   });
 });
